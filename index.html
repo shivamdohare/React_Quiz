@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quuiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+    <section class="quiz">
+       <div class="heading">
+        <p class="title">React Quiz</p>
+        <p class="subtitle">Quiz to test your React knowledge</p>
+       </div>  
+       <div class="result hide">
+       <p>You scored 5/5!</p>
+       <p class="reload">
+        <button onclick="document.location.reload(true)">Try Again</button>
+       </p>
+       </div>
+       <form class="quiz-form">
+        <div class="question">
+            <p>1. What is ReactJS mainly used for building?</p>
+            <div class="option">
+                <input type="radio" name="q1" value="A">
+                <label for="">Database</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q1" value="B">
+                <label for="">Connectivity</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q1" value="C">
+                <label for="">User Interface</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q1" value="D">
+                <label for="">Design Platform</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>2. What is used to handle code-splitting?</p>
+            <div class="option">
+                <input type="radio" name="q2" value="A">
+                <label for="">React.lazy</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q2" value="B">
+                <label for="">React.memo</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q2" value="C">
+                <label for="">React.fallback</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q2" value="D">
+                <label for="">React.split</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>3. When is useReducer used over useState in React component?</p>
+            <div class="option">
+                <input type="radio" name="q3" value="A" checked>
+                <label for="">When we want to replace redux</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q3" value="B" checked>
+                <label for="">When we want to break out production app</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q3" value="C" >
+                <label for="">When we want to improve performance</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q3" value="D" >
+                <label for="">none of the above</label>
+            </div> 
+        </div>
+        <div class="question">
+            <p>4. Total ways of defining variables in ES6 is?</p>
+            <div class="option">
+                <input type="radio" name="q4" value="A" >
+                <label for="">1</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q4" value="B" >
+                <label for="">2</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q4" value="C" checked>
+                <label for="">3</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q4" value="D" checked>
+                <label for="">4</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>5. Which of the following are two ways to handle data in react?</p>
+            <div class="option">
+                <input type="radio" name="q5" value="A" checked>
+                <label for="">Services and Components</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q5" value="B" checked>
+                <label for="">States and Props</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q5" value="C" checked>
+                <label for="">State and Services</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q5" value="D" checked>
+                <label for="">State and Component</label>
+            </div>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+        </div>
+       </form>
+    </section>
+   </main>
+   <script src="index.js"></script>
+</body>
+</html>
